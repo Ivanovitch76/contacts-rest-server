@@ -11,7 +11,7 @@ import be.steformations.pc.java_data.contacts.spring_jdbc.managers.TagManager;
 public class ContactRestDaoFactory implements DaoFactory{
 
 	private static DaoFactory instance = new ContactRestDaoFactory();
-	
+	 
 	private ContactDao contactDao;
 	private TagDao tagDao;
 	private CountryDao countryDao;
